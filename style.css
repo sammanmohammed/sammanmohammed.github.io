@@ -246,42 +246,39 @@ footer {
   
 }
 
-
-
-
 /* MODULES TIMELINE */
 
 .timeline {
   position: relative;
   margin: 50px auto;
-  padding-left: 40px;
+  padding-left: 30px; /* etwas weniger Abstand */
   max-width: 800px;
 }
 
+/* Linie */
 .timeline::before {
   content: "";
   position: absolute;
-  left: 15px;
+  left: 10px; /* näher an den Text */
   top: 0;
-  width: 3px;
+  width: 2px;
   height: 100%;
   background: #00bcd4;
 }
 
+/* Item */
 .timeline-item {
   position: relative;
   margin-bottom: 40px;
+  padding-left: 20px; /* sorgt für sauberen Abstand zum Text */
 }
+
 
 .timeline-dot {
-  position: absolute;
-  left: 6px;
-  width: 18px;
-  height: 18px;
-  background: #00bcd4;
-  border-radius: 50%;
+  display: none;
 }
 
+/* Überschrift */
 .timeline-content h4 {
   margin-bottom: 10px;
 }
@@ -300,3 +297,7 @@ footer {
   border-radius: 20px;
   font-size: 14px;
 }
+
+
+
+
