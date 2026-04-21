@@ -6,14 +6,15 @@
   <title>Mohammed Samman | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <header>
     <nav class="navbar">
-      <!-- <h1 class="logo">Mein Portfolio</h1> -->
       <ul class="nav-links">
         <li><a href="#about">Über mich</a></li>
         <li><a href="#projects">Projekte</a></li>
+        <li><a href="modules.html">Module</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Kontakt</a></li>
       </ul>
@@ -21,24 +22,30 @@
   </header>
 
   <main>
+
+    <!-- HERO -->
     <section class="hero" id="about">
       <div class="hero-container">
+        
         <div class="hero-text">
           <h2>Hi, ich bin Mohammed Samman</h2>
+          
           <p>
-           Ich bin Wirtschaftsinformatik-Student mit Interesse an der Verbindung von 
-  IT und betriebswirtschaftlichen Prozessen. Im Studium habe ich praktische 
-  Erfahrungen in Projekten gesammelt und arbeite strukturiert sowie lösungsorientiert.
-
-  Mein Ziel ist es, technische und organisatorische Anforderungen zu verstehen 
-  und in sinnvolle Lösungen umzusetzen.
+            Ich bin Wirtschaftsinformatik-Student mit Interesse an der Verbindung von 
+            IT und betriebswirtschaftlichen Prozessen. Im Studium habe ich praktische 
+            Erfahrungen in Projekten gesammelt und arbeite strukturiert sowie lösungsorientiert.
+            Mein Ziel ist es, technische und organisatorische Anforderungen zu verstehen 
+            und in sinnvolle Lösungen umzusetzen.
           </p>
+
           <p>
             Auf dieser Seite zeige ich ausgewählte Projekte aus meinem Studium,
             meine technischen Fähigkeiten und meinen praktischen Lernfortschritt.
           </p>
+
           <div class="hero-buttons">
             <a class="btn" href="#projects">Meine Projekte</a>
+            <a class="btn" href="modules.html">Meine Module</a>
             <a class="btn btn-secondary" href="#contact">Kontakt</a>
           </div>
         </div>
@@ -46,110 +53,108 @@
         <div class="hero-image">
           <img src="profile.png" alt="Profilbild von Mohammed Samman" />
         </div>
+
       </div>
     </section>
 
+    <!-- PROJEKTE -->
     <section id="projects">
       <h3 class="section-title">Projekte</h3>
 
       <div class="cards">
+
         <article class="card">
-    <h4>Glücksrad – Wort-Ratespiel</h4>
-    <p>
-      Entwicklung eines Java-basierten Wort-Ratespiels mit Benutzeranmeldung 
-      und Highscore-System. Umsetzung der Spiellogik, Dateiverarbeitung sowie 
-      einer objektorientierten Struktur mit mehreren Klassen.
-    </p>
-    <p><strong>Zeitraum:</strong> 2. Semester</p>
-    <div class="tags">
-      <span class="tag">Java</span>
-      <span class="tag">OOP</span>
-      <span class="tag">Dateiverarbeitung</span>
-      <span class="tag">Konsole</span>
-    </div>
-    <p>
-      <strong>GitHub:</strong>
-      <a href="https://github.com/sammanmohammed/oop2-gluecksrad-wortspiel" target="_blank">
-        Projekt ansehen
-      </a>
-    </p>
-  </article>
+          <h4>Glücksrad – Wort-Ratespiel</h4>
+          <p>
+            Entwicklung eines Java-basierten Wort-Ratespiels mit Benutzeranmeldung 
+            und Highscore-System. Umsetzung der Spiellogik, Dateiverarbeitung sowie 
+            einer objektorientierten Struktur mit mehreren Klassen.
+          </p>
+          <p><strong>Zeitraum:</strong> 2. Semester</p>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Dateiverarbeitung</span>
+            <span class="tag">Konsole</span>
+          </div>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/sammanmohammed/oop2-gluecksrad-wortspiel" target="_blank">
+              Projekt ansehen
+            </a>
+          </p>
+        </article>
 
-       <article class="card">
-  <h4>Handwerker-Informationssystem</h4>
-  <p>
-    Entwicklung einer JavaFX-Desktop-Anwendung zur Verwaltung von Kunden, 
-    Aufträgen und Ressourcen. Umsetzung einer grafischen Benutzeroberfläche 
-    mit Benutzerinteraktion sowie Integration einer Datenbankanbindung über JPA.
-  </p>
-  <p><strong>Zeitraum:</strong> 3. Semester</p>
-  <div class="tags">
-    <span class="tag">Java</span>
-    <span class="tag">JavaFX</span>
-    <span class="tag">JPA</span>
-    <span class="tag">Maven</span>
-    <span class="tag">SQL</span>
-  </div>
-  <p>
-    <strong>GitHub:</strong>
-    <a href="https://github.com/sammanmohammed/handwerker-informationssystem" target="_blank">
-      Projekt ansehen
-    </a>
-  </p>
-</article>
+        <article class="card">
+          <h4>Handwerker-Informationssystem</h4>
+          <p>
+            Entwicklung einer JavaFX-Desktop-Anwendung zur Verwaltung von Kunden, 
+            Aufträgen und Ressourcen. Umsetzung einer grafischen Benutzeroberfläche 
+            sowie Integration einer Datenbankanbindung über JPA.
+          </p>
+          <p><strong>Zeitraum:</strong> 3. Semester</p>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">JavaFX</span>
+            <span class="tag">JPA</span>
+            <span class="tag">Maven</span>
+            <span class="tag">SQL</span>
+          </div>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/sammanmohammed/handwerker-informationssystem" target="_blank">
+              Projekt ansehen
+            </a>
+          </p>
+        </article>
 
-       <article class="card">
-  <h4>Handwerker-Informationssystem V2</h4>
-  <p>
-    Erweiterung einer JavaFX-Desktop-Anwendung zu einem modularen 
-    Handwerker-Informationssystem mit klarer 3-Schichten-Architektur. 
-    Implementierung von Kunden-, Ressourcen- und Auftragsverwaltung 
-    sowie Integration von JPA und JDBC zur persistenten Datenhaltung.
-  </p>
-  <p><strong>Zeitraum:</strong> 3. Semester</p>
-  <div class="tags">
-    <span class="tag">Java</span>
-    <span class="tag">JavaFX</span>
-    <span class="tag">JPA</span>
-    <span class="tag">JDBC</span>
-    <span class="tag">Maven</span>
-    <span class="tag">3-Tier Architecture</span>
-  </div>
-  <p>
-    <strong>GitHub:</strong>
-    <a href="https://github.com/sammanmohammed/oop3-handwerker-informationssystem" target="_blank">
-      Projekt ansehen
-    </a>
-  </p>
-       </article>
+        <article class="card">
+          <h4>Handwerker-Informationssystem V2</h4>
+          <p>
+            Erweiterung zu einem modularen System mit klarer 3-Schichten-Architektur 
+            sowie Integration von JPA und JDBC zur persistenten Datenhaltung.
+          </p>
+          <p><strong>Zeitraum:</strong> 3. Semester</p>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">JavaFX</span>
+            <span class="tag">JPA</span>
+            <span class="tag">JDBC</span>
+            <span class="tag">Maven</span>
+            <span class="tag">3-Tier Architecture</span>
+          </div>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/sammanmohammed/oop3-handwerker-informationssystem" target="_blank">
+              Projekt ansehen
+            </a>
+          </p>
+        </article>
 
-      
       </div>
     </section>
 
+    <!-- SKILLS -->
     <section id="skills">
-      <h3 class="section-title">HARD SKILLS</h3>
+      <h3 class="section-title">Skills</h3>
 
+      <h4 class="skills-subtitle">Hard Skills</h4>
       <div class="skills-list">
         <div class="skill-box">Java</div>
         <div class="skill-box">SQL</div>
         <div class="skill-box">R</div>
-   
       </div>
-    </section>
-  <section id="skills">
-      <h3 class="section-title">SOFT SKILLS</h3>
 
+      <h4 class="skills-subtitle">Soft Skills</h4>
       <div class="skills-list">
         <div class="skill-box">Strukturierte und selbstständige Arbeitsweise</div>
-        <div class="skill-box"> Schnelle Auffassungsgabe und Lernbereitschaft</div>
+        <div class="skill-box">Schnelle Auffassungsgabe und Lernbereitschaft</div>
         <div class="skill-box">Teamfähigkeit und Kommunikationsstärke</div>
-         <div class="skill-box">Zielorientiertes Arbeiten </div>
-   
+        <div class="skill-box">Zielorientiertes Arbeiten</div>
       </div>
     </section>
-  
 
+    <!-- KONTAKT -->
     <section id="contact" class="contact">
       <h3 class="section-title">Kontakt</h3>
 
@@ -157,12 +162,13 @@
         <p><strong>Name:</strong> Mohammed Samman</p>
         <p>
           <strong>E-Mail:</strong>
-          <a href="mosamman05@gmail.com">
+          <a href="mailto:mosamman05@gmail.com">
             mosamman05@gmail.com
           </a>
         </p>
       </div>
     </section>
+
   </main>
 
   <footer>
