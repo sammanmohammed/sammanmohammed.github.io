@@ -1,13 +1,15 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 body {
   line-height: 1.6;
   background: #f7f9fc;
@@ -98,8 +100,6 @@ section {
   align-items: center;
 }
 
-
-
 .hero-image img {
   width: 220px;
   height: 220px;
@@ -110,6 +110,7 @@ section {
   border: 4px solid white;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
 .btn {
   display: inline-block;
   background: #2563eb;
@@ -182,6 +183,7 @@ section {
   margin: 4px 6px 0 0;
 }
 
+/* SKILLS */
 .skills-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -198,10 +200,16 @@ section {
 }
 
 .skills-subtitle {
-  margin-top: 30px;  
-  margin-bottom: 10px; 
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #1f2937;
 }
 
+.skills-subtitle:not(:first-of-type) {
+  margin-top: 32px;
+}
+
+/* KONTAKT */
 .contact a {
   color: #2563eb;
   text-decoration: none;
@@ -219,6 +227,7 @@ footer {
   margin-top: 40px;
 }
 
+/* MOBILE */
 @media (max-width: 700px) {
   .hero-container {
     flex-direction: column-reverse;
@@ -248,47 +257,40 @@ footer {
   .nav-links {
     justify-content: center;
   }
-  
 }
 
 /* MODULES TIMELINE */
-
 .timeline {
   position: relative;
   margin: 50px auto;
-  padding-left: 30px; /* etwas weniger Abstand */
+  padding-left: 30px;
   max-width: 800px;
 }
 
-/* Linie */
 .timeline::before {
   content: "";
   position: absolute;
-  left: 10px; /* näher an den Text */
+  left: 10px;
   top: 0;
   width: 2px;
   height: 100%;
   background: #00bcd4;
 }
 
-/* Item */
 .timeline-item {
   position: relative;
   margin-bottom: 40px;
-  padding-left: 20px; /* sorgt für sauberen Abstand zum Text */
+  padding-left: 20px;
 }
-
 
 .timeline-dot {
   display: none;
 }
 
-/* Überschrift */
 .timeline-content h4 {
   margin-bottom: 10px;
 }
 
-/* Module Tags */
 .module-tags {
   display: flex;
   flex-wrap: wrap;
@@ -302,7 +304,3 @@ footer {
   border-radius: 20px;
   font-size: 14px;
 }
-
-
-
-
