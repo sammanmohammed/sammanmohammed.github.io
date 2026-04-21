@@ -197,6 +197,11 @@ section {
   font-weight: bold;
 }
 
+.skills-subtitle {
+  margin-top: 30px;   /* Abstand nach oben */
+  margin-bottom: 10px; /* Abstand zu den Skills */
+}
+
 .contact a {
   color: #2563eb;
   text-decoration: none;
